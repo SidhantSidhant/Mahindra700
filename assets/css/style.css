@@ -68,6 +68,7 @@
 
 .xuvMahindraimg {
     background: url(https://s3-alpha-sig.figma.com/img/e4e0/386c/c3a6bec1065a95b2d9677691ac016897?Expires=1685318400&Signature=DZ2nH95AJTMR-MA7bCDXvpqwnMYgAYcO9cNro-BbZzDhrpMFKJ-IFOqiFSRrkXp2KWDUlVj2PGrpCHaAbj6NLptQdCSe9BqdmH-HDLkyi1a6-ti~5OXPxNwRHdEtBrieJAcZ-RdOe4wg35uZlg2-UCH4u12-eWLw3cMGfILwyFBDF0fTWO44oUpHSADhYXODy5fnUvpdjNqXHXGdbfE1dgBNKVEAc8dlJquWGfdVpKlr9Z8mhf-KzJ6GSWuhoO87POiQInI7emzgI-x3yUl8bv19uJj~BXAvh21GOVW35g-x1FpdoxYfbqVJfBikmwmE3YbKB-pKZUpr99FPb4Unrg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    filter: drop-shadow(0px 221px 99px rgba(158, 224, 255, 0.1)) drop-shadow(0px 92.3285px 41.3598px rgba(158, 224, 255, 0.0718854)) drop-shadow(0px 49.3632px 22.1129px rgba(158, 224, 255, 0.0596107)) drop-shadow(0px 27.6726px 12.3963px rgba(158, 224, 255, 0.05)) drop-shadow(0px 14.6967px 6.5836px rgba(158, 224, 255, 0.0403893)) drop-shadow(0px 6.11564px 2.73958px rgba(158, 224, 255, 0.0281146));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,18 +110,7 @@
     color: white;
 }
 
-.mahindraXvuOffsers h2,
-h3,
-.mahindra700Price h2,
-h3 {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 4rem;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
+
 
 .mahindraEngine p {
     font-family: 'Quicksand';
@@ -160,27 +150,21 @@ h3 {
     line-height: 27px;
 }
 
+
+.mahindraXvuCarsprice img {
+    filter: drop-shadow(0px 221px 99px rgba(158, 224, 255, 0.1)) drop-shadow(0px 92.3285px 41.3598px rgba(158, 224, 255, 0.0718854)) drop-shadow(0px 49.3632px 22.1129px rgba(158, 224, 255, 0.0596107)) drop-shadow(0px 27.6726px 12.3963px rgba(158, 224, 255, 0.05)) drop-shadow(0px 14.6967px 6.5836px rgba(158, 224, 255, 0.0403893)) drop-shadow(0px 6.11564px 2.73958px rgba(158, 224, 255, 0.0281146));
+}
+
 .mahindra700Price {
     background-image: url(https://s3-alpha-sig.figma.com/img/f007/5278/532a52a3b45aef9da47724c1f3c7e9d9?Expires=1685318400&Signature=IqikIMyZJfdSJ1~xD5-894~253-gKWnYLXwKttmGFV6IR3JgSTs4COMHJO2rDik3Zng0KNM1JhiMJkD4yOWoj5-WQyPvtUp~Bcwo7zinzOgCHZA4UJF~SEaNzwQvSNeFmzzqZ98BFMRaOJy8VAoeQML5RKz-3RxYckG4rMZd5MHw5-mYQV4TacXYmG3eLTqD6C82bj5x9A3UjirI9~EcZb22QB~~0GinyWBuRmSvbIGfkYYhxBxhjTrAkXKSYDKVzngHWIasglK8EegT19-BeyvLLteWPyYdpl1eGxKfLB~RaES2f2WEXHWj-ewuZJbmyE76dIxCgeiJnyTSsUCTsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
-    width: 100vw;
-    height: 70vh;
+    width: 100%;
     padding: 3rem;
-    z-index: 5555;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
-.mahindra700Price p {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 146.5%;
-    color: rgb(255, 255, 255, .6);
-}
+
 
 .mahindraVarients .bg-light ul li a {
     margin-right: 3rem;
@@ -190,13 +174,11 @@ h3 {
     background-color: black !important;
 }
 
-td,
-tr,
-th {
+.mahindra700AvargeIntro td {
     border-color: black !important;
 }
 
-.mahindra700AvargeIntro{
+.mahindra700AvargeIntro {
     margin-top: 2rem;
 }
 
@@ -208,16 +190,22 @@ th {
     line-height: 25px;
     color: rgb(255, 255, 255, .6);
 }
-.mahindra700AvargeIntro h6{
+
+.mahindra700AvargeIntro h6 {
     margin-bottom: 0;
-    color : white;
+    color: white;
 }
-.mahindra700AvargeIntro span{
+
+.mahindra700AvargeIntro span {
     color: rgb(255, 172, 48, .2);
 }
 
-.mahindra700AvargeIntro a{
+.mahindra700AvargeIntro a {
     display: block;
+}
+
+.mahindra700AvargeIntro a,
+.expertAdvice a {
     text-align: center;
     border-radius: 1rem;
     border: 1px solid #FFAC30;
@@ -226,7 +214,132 @@ th {
     font-family: 'Spartan';
     font-style: normal;
     font-weight: 600;
-    color : rgb(255, 255, 255, .3) !important;
+    color: rgb(255, 255, 255, .3) !important;
+}
+
+.mahindra700AvargeIntro button {
+    background: transparent;
+    border: none;
+    color: orange
+}
+
+table th {
+    color: #55C2FF;
+    font-size: 1.5rem;
+}
+
+/* ---------------------------------------- Advice -------------------------------------------------------- */
+.expertAdvice {
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.expertAdvice small {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 128%;
+    color: #FFAC30;
+
+}
+
+.expertAdvice p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    ;
+}
+
+.expertAdvice img {
+    transform: rotateY(174deg) translateY(-6rem);
+}
+
+.expertAdvice .nav {
+    border: none;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #FFAC30;
+    background-color: transparent;
+    border-color: transparent transparent transparent;
+}
+
+.expertAdvice p {
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 158.5%;
+    color: #FFFFFF;
+
+}
+
+.expertAdvice .mahindra700 {
+    filter: drop-shadow(0px 221px 99px rgba(158, 224, 255, 0.1)) drop-shadow(0px 92.3285px 41.3598px rgba(158, 224, 255, 0.0718854)) drop-shadow(0px 49.3632px 22.1129px rgba(158, 224, 255, 0.0596107)) drop-shadow(0px 27.6726px 12.3963px rgba(158, 224, 255, 0.05)) drop-shadow(0px 14.6967px 6.5836px rgba(158, 224, 255, 0.0403893)) drop-shadow(0px 6.11564px 2.73958px rgba(158, 224, 255, 0.0281146));
+    width: 100%;
+    object-fit: contain;
+}
+
+.expertAdvice .expertAdviceViewMoreSlider {
+    /* display: block; */
+    transform: translateY(-15rem) !important;
+    color: #FFAC30 !important;
+}
+
+.expertAdvice a {
+    padding: 2rem;
+}
+
+/* ---------------------------------------------------prosAndcons ------------------------------*/
+.proAndconsImg {
+    overflow: hidden;
+    height: 30vh;
+    transform: translateY(-6rem);
+}
+
+.proAndcons img {
+    width: 100%;
+    transform: translateY(-28rem);
+}
+
+hr {
+    height: .1px;
+    width: 100%;
+    background-color: white;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.proAndcons ul li {
+    list-style: circle;
+    color: white;
+}
+
+.proAndcons ul li {
+    width: 90%;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 146.5%;
+    color: rgb(255, 255, 255, .6);
 }
 
 /* ------------------------------------------------------------------------------------------------ */
@@ -248,11 +361,40 @@ th {
         margin-left: 5rem;
 
     }
+
+
+    .expertAdvice .nav li:not(:last-child)::after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 20px;
+        position: absolute;
+        width: 2px;
+        height: 60px;
+        transform: translate(151px, -3rem);
+        background-color: white;
+    }
+
+    .expertAdvice .nav li::before {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 20px;
+        width: 42%;
+        height: 2px;
+        background: white;
+        bottom: 0;
+        transform: translate(-152px, 29px);
+    }
 }
 
 
 
 @media all and (max-width : 778px) {
+    html {
+        font-size: 10px;
+    }
+
     .flex {
         flex-direction: column;
     }
@@ -304,22 +446,31 @@ th {
         margin-bottom: 1rem;
     }
 
-    
-.mahindra700AvargeIntro tr td p {
-    font-size: 7px;
-    margin: 0;
-    padding : 0;
-}
 
-.mahindra700AvargeIntro tr td h4 {
-    font-size: 10px;
-}
-.mahindra700AvargeIntro h6{
-    font-size: 10px;
-}
+    .mahindra700AvargeIntro tr td p {
+        font-size: 7px;
+        margin: 0;
+        padding: 0;
+    }
 
-.mahindra700AvargeIntro a{
-   font-size : 10px;
-}
+    .mahindra700AvargeIntro tr td h4 {
+        font-size: 10px;
+    }
 
+    .mahindra700AvargeIntro h6 {
+        font-size: 10px;
+    }
+
+    .mahindra700AvargeIntro a {
+        font-size: 5px !important;
+    }
+
+    .expertAdvice img {
+        width: 100%;
+        transform: rotateY(174deg) translateY(-6rem);
+    }
+
+    .proAndcons{
+        text-align: center;
+    }
 }

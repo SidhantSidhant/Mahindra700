@@ -24,3 +24,23 @@ ol {
 .navbar-light .navbar-nav .show>.nav-link {
     color: orange !important;
 }
+
+h2,h3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 146.5%;
+    color: rgb(255, 255, 255, .6);
+}
+
