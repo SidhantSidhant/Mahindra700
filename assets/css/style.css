@@ -212,6 +212,19 @@ th {
     color: rgb(255, 172, 48, .2);
 }
 
+.mahindra700AvargeIntro a{
+    display: block;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid #FFAC30;
+    padding: 5px;
+    color: #000000;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    color : rgb(255, 255, 255, .3) !important;
+}
+
 /* ------------------------------------------------------------------------------------------------ */
 
 @media all and (min-width : 778px) {
