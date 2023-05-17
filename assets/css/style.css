@@ -196,6 +196,10 @@ th {
     border-color: black !important;
 }
 
+.mahindra700AvargeIntro{
+    margin-top: 2rem;
+}
+
 .mahindra700AvargeIntro tr td p {
     font-family: 'Quicksand';
     font-style: normal;
@@ -299,5 +303,23 @@ th {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
+    
+.mahindra700AvargeIntro tr td p {
+    font-size: 7px;
+    margin: 0;
+    padding : 0;
+}
+
+.mahindra700AvargeIntro tr td h4 {
+    font-size: 10px;
+}
+.mahindra700AvargeIntro h6{
+    font-size: 10px;
+}
+
+.mahindra700AvargeIntro a{
+   font-size : 10px;
+}
 
 }
