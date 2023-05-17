@@ -110,7 +110,9 @@
 }
 
 .mahindraXvuOffsers h2,
-h3 , .mahindra700Price h2,h3{
+h3,
+.mahindra700Price h2,
+h3 {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 600;
@@ -158,10 +160,10 @@ h3 , .mahindra700Price h2,h3{
     line-height: 27px;
 }
 
-.mahindra700Price{
+.mahindra700Price {
     background-image: url(https://s3-alpha-sig.figma.com/img/f007/5278/532a52a3b45aef9da47724c1f3c7e9d9?Expires=1685318400&Signature=IqikIMyZJfdSJ1~xD5-894~253-gKWnYLXwKttmGFV6IR3JgSTs4COMHJO2rDik3Zng0KNM1JhiMJkD4yOWoj5-WQyPvtUp~Bcwo7zinzOgCHZA4UJF~SEaNzwQvSNeFmzzqZ98BFMRaOJy8VAoeQML5RKz-3RxYckG4rMZd5MHw5-mYQV4TacXYmG3eLTqD6C82bj5x9A3UjirI9~EcZb22QB~~0GinyWBuRmSvbIGfkYYhxBxhjTrAkXKSYDKVzngHWIasglK8EegT19-BeyvLLteWPyYdpl1eGxKfLB~RaES2f2WEXHWj-ewuZJbmyE76dIxCgeiJnyTSsUCTsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
-    width : 100vw;
-    height : 70vh;
+    width: 100vw;
+    height: 70vh;
     padding: 3rem;
     z-index: 5555;
     background-position: center;
@@ -177,9 +179,38 @@ h3 , .mahindra700Price h2,h3{
     font-size: 24px;
     font-weight: 400;
     line-height: 146.5%;
-    color: rgb(255, 255, 255,.6);
+    color: rgb(255, 255, 255, .6);
 }
 
+.mahindraVarients .bg-light ul li a {
+    margin-right: 3rem;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+td,
+tr,
+th {
+    border-color: black !important;
+}
+
+.mahindra700AvargeIntro tr td p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(255, 255, 255, .6);
+}
+.mahindra700AvargeIntro h6{
+    margin-bottom: 0;
+    color : white;
+}
+.mahindra700AvargeIntro span{
+    color: rgb(255, 172, 48, .2);
+}
 
 /* ------------------------------------------------------------------------------------------------ */
 
@@ -249,9 +280,11 @@ h3 , .mahindra700Price h2,h3{
         text-align: center;
     }
 
-    .mahindra700Price img{
-            width: 100%;
-            height: 30vh;;
-            margin-top : 1rem;
+    .mahindra700Price img {
+        width: 100%;
+        /* height: 30vh;; */
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
+
 }
