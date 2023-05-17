@@ -1,0 +1,127 @@
+.input-group {
+    width: 300px;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(67, 64, 64, 0.9);
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-margin {
+    margin-left: 3rem;
+
+}
+
+
+.input-serch-icon {
+    border-right: 0;
+    background-color: rgba(67, 64, 64, 0.9);
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border: none;
+}
+
+.input-arrow-icon {
+    border-left: 0;
+    background-color: rgba(67, 64, 64, 0.9);
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border: none;
+}
+
+/* .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.bg-light {
+    background-color: transparent !important;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+
+
+.bg-light ul li a {
+    color: white !important;
+    margin-right: 2rem;
+}
+
+.toggler {
+    display: none;
+}
+
+.xuvMahindra700 {
+    font-family: 'Allerta Stencil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 260px;
+    line-height: 383px;
+    color: #55C2FF;
+    opacity: 0.46;
+}
+
+
+.xuvMahindraimg {
+    background: url(https://s3-alpha-sig.figma.com/img/e4e0/386c/c3a6bec1065a95b2d9677691ac016897?Expires=1685318400&Signature=DZ2nH95AJTMR-MA7bCDXvpqwnMYgAYcO9cNro-BbZzDhrpMFKJ-IFOqiFSRrkXp2KWDUlVj2PGrpCHaAbj6NLptQdCSe9BqdmH-HDLkyi1a6-ti~5OXPxNwRHdEtBrieJAcZ-RdOe4wg35uZlg2-UCH4u12-eWLw3cMGfILwyFBDF0fTWO44oUpHSADhYXODy5fnUvpdjNqXHXGdbfE1dgBNKVEAc8dlJquWGfdVpKlr9Z8mhf-KzJ6GSWuhoO87POiQInI7emzgI-x3yUl8bv19uJj~BXAvh21GOVW35g-x1FpdoxYfbqVJfBikmwmE3YbKB-pKZUpr99FPb4Unrg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    transform: translateY(-15rem);
+
+}
+
+@media all and (min-width : 778px) {}
+
+
+
+@media all and (max-width : 778px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .input-serch-icon {
+        margin-right: -5px;
+        margin-left: 0;
+    }
+
+    .input-margin {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .input-group {
+        width: 100%;
+        margin: 0;
+    }
+
+    .toggler {
+        display: block;
+    }
+
+    .xuvMahindra700 {
+        font-size: 128px;
+    }
+
+    .xuvMahindraimg {
+        width: 100%;
+        transform: translateY(0rem);
+
+    }
+
+}
