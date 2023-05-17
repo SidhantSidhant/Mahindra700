@@ -80,13 +80,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 60%;
     height: 50vh;
-    transform: translateY(-15rem);
+    transform: translateY(-11rem);
 
 }
 
-@media all and (min-width : 778px) {}
+.xuvMahindrapara {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+@media all and (min-width : 778px) {
+    .xuvMahindrapara {
+        transform: translateY(-9rem);
+
+    }
+}
 
 
 
@@ -115,13 +131,12 @@
     }
 
     .xuvMahindra700 {
-        font-size: 128px;
+        font-size: 50px;
     }
 
     .xuvMahindraimg {
-        width: 100%;
+        width: 118%;
         transform: translateY(0rem);
-
     }
 
 }
