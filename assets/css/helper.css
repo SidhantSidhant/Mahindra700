@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: 'Quicksand';
+    font-family: 'Quicksand';
 }
 
 .flex {
@@ -18,6 +19,9 @@ ol {
     list-style: none;
 }
 
+video{
+    width : 100%;
+}
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,

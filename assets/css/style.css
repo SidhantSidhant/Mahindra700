@@ -89,7 +89,8 @@
 }
 
 /* ________________________________________offsers Section_________________________________________ */
-.mahindraXvustars i {
+.mahindraXvustars i,
+.userReview i {
     color: #FFAC30 !important;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -105,7 +106,8 @@
     margin-top: 4px;
 }
 
-.mahindraXvuOffsers i {
+.mahindraXvuOffsers i,
+.userReview i {
     font-size: 2rem;
     color: white;
 }
@@ -205,7 +207,8 @@
 }
 
 .mahindra700AvargeIntro a,
-.expertAdvice a {
+.expertAdvice a,
+.userReview a {
     text-align: center;
     border-radius: 1rem;
     border: 1px solid #FFAC30;
@@ -342,6 +345,93 @@ hr {
     color: rgb(255, 255, 255, .6);
 }
 
+/* --------------------------------------------------userReview---------------------------------------------- */
+.userReview h2,
+.mahindra700OwlCarasole h2 {
+    color: rgb(255, 255, 255, .3);
+    text-transform: capitalize;
+    font-size: 5rem;
+}
+
+.userReview h3,
+.mahindra700OwlCarasole h3 {
+    font-size: 5rem;
+}
+
+.userReview span {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.userReview .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.userReview a {
+    margin-top: 2rem;
+    padding: 1rem;
+    vertical-align: center;
+    font-size: 2rem;
+    color: #FFAC30 !important;
+}
+
+.userReview a:nth-of-type(2) {
+    color: white !important;
+    border: 1px solid white;
+}
+
+.userReview a i {
+    color: white !important;
+}
+
+
+.userReview .views {
+    border: 1px solid #FFFFFF;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 3rem;
+}
+
+.userReview .mahindra7000OwnarAddress p {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    width: 60%;
+    font-size: 1rem;
+
+}
+
+.userReview .viewMore a {
+    margin-top: 5rem !important;
+}
+
+.mahindra700OwlCarasole .matrix {
+    background-color: white;
+    height: 6rem;
+    border-radius: 60%;
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+   margin-top: 2rem;
+
+}
+.mahindra700OwlCarasole{
+    margin-top: 12rem;
+    overflow: hidden;
+}
+
+.mahindra700OwlCarasole .matrix p {
+    background: #FFAC30;
+    width : 100%;
+    height : 4rem;
+    clip-path: polygon(42% 18%, 15% 296%, 84% 107%);
+}
+.mahindra700OwlCarasole img{
+    width: 100%;
+    height: 34rem;
+}
+
 /* ------------------------------------------------------------------------------------------------ */
 
 @media all and (min-width : 778px) {
@@ -425,7 +515,7 @@ hr {
 
     .xuvMahindraimg {
         width: 100%;
-        height: 22rem;
+        height: 45rem;
         transform: translateY(0rem);
     }
 
@@ -470,7 +560,13 @@ hr {
         transform: rotateY(174deg) translateY(-6rem);
     }
 
-    .proAndcons{
+    .proAndcons {
         text-align: center;
+    }
+
+
+    .userReview .flex {
+        display: flex;
+        flex-direction: column;
     }
 }
